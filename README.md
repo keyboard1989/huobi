@@ -5,7 +5,7 @@
 go get github.com/samael65535/huobi
 ```
 # 使用
-面向用户的调用需要设置Access-Key与Private-Key, 面积行情的调用不用设置
+面向用户的调用需要设置Access-Key与Private-Key并创建session, 面向行情的调用不用设置
 ``` Go
 
 ak := "xxxx-xxxx-xxxx-xxxx"
