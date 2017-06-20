@@ -1,5 +1,9 @@
-火币网的API移植
+# 火币网的API移植
 
+# 安装
+```bash
+go get -u github.com/samael65535/huobi_golang
+```
 # 使用
 面向用户的调用需要设置Access-Key与Private-Key, 面积行情的调用不用设置
 ``` Go
