@@ -6,6 +6,7 @@ type CoinType string
 
 const BTC CoinType = "1"
 const LTC CoinType = "2"
+const ETH CoinType = "3"
 
 type AccountType string
 
@@ -24,6 +25,7 @@ type MarketType string
 const CNYBTC MarketType = "1"
 const CNYLTC MarketType = "2"
 const USDBTC MarketType = "3"
+const CNYETH MarketType = "4"
 
 func NewSession(accessKey string, secertKey string) *Session {
 	return &Session{defaultAPIAddress, accessKey, secertKey, 2}
