@@ -1,3 +1,4 @@
+// 用来获取火币网行情的API
 package huobi
 
 import (

@@ -29,7 +29,6 @@ type Connection struct {
 }
 
 func (this *Connection) init() {
-
 	u := url.URL{Scheme: "ws", Host: "api.huobi.com", Path: "/ws"}
 	c, _, err := websocket.DefaultDialer.Dial(u.String(), nil)
 	if err != nil {
